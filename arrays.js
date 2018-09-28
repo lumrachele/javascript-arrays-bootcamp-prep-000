@@ -3,7 +3,7 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray (array, element) {
-  var newArray = [...array, `${element}`];
+  var newArray = [`${element}`, ...array,];
   return newArray
 }
 
